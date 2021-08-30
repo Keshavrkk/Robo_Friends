@@ -36,9 +36,10 @@ render(){
 	}else if(filteredRobots.length===0){
 		return (
 		<div>
-			<h1 className="white tc underline grow-large">ROBO-FRIENDS</h1>
 		<div>
-		<h1 className=" tc grow pa3 white">Oops!.No Such User Found!</h1>
+		<h1 className="white tc underline grow-large">ROBO-FRIENDS</h1>
+		<h2 className=" tc grow pa3 white">Oops!.No Such User Found!</h2>
+
 		</div>
 		<div className="bots">
 		<SearchBox searchChange={this.onSearchChange} />
