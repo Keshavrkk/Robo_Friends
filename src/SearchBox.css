@@ -1,0 +1,12 @@
+.zone{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	/*background-color:Aquamarine;*/
+	box-shadow: 5;
+    /*border-radius:4px;*/
+    /*border:1px solid #bbb;*/
+    transition: all 0.3s linear;
+    /*background-color: linear-gradient(to left, purple , cyan);*/
+}

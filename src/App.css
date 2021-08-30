@@ -1,0 +1,26 @@
+.bots{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: +1;
+}
+
+.robo{
+    margin-top: 0;
+    top: 0;
+	margin-bottom: 100px;
+}
+
+.bgd{
+    
+    top: auto;
+    margin: auto 0;
+    background-image: linear-gradient(to right, purple , cyan);
+}
+.color{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
