@@ -13,11 +13,26 @@
 }
 
 .bgd{
-    
     top: auto;
     margin: auto 0;
-    background-image: linear-gradient(to right, purple , cyan);
+    background:linear-gradient(-45deg, #EE7752, #E73C73, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    position: relative;
+    animation: change 4s ease-in-out infinite;
 }
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
 .color{
     text-align: center;
     top: 50%;
